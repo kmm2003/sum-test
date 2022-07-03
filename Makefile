@@ -2,7 +2,7 @@
 all: sum-test
 
 sum-test: sum.o main.o
-	g++ -o sum-test sum.on main.o
+	g++ -o sum-test sum.o main.o
 
 main.o: sum.h main.cpp
 
